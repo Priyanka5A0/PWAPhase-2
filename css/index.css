@@ -1,0 +1,31 @@
+header{
+  text-align: center;
+
+  margin: 1%;
+  padding:2%;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 1000;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px;
+}
+a img{
+  display: block;
+  margin:1% 3% 0 auto;
+  width:10%;
+  height:20%;
+
+}
+.parent{
+  display: flex;
+
+}
+.child img{
+  width:280px;
+  height:280px;
+}
+.child{
+  text-align: center;
+
+  width: 30%;
+}

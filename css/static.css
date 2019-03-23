@@ -1,0 +1,77 @@
+body{
+  background:red;
+}
+.main{
+  margin: 2%;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  background: black;
+  justify-content: space-around;
+
+}
+.left{
+width: 30%;
+   text-align: center;
+  margin: 2%;
+  padding: 2%;
+  background: pink;
+border-radius: 5%;
+}
+.right{
+width: 70%;
+  margin: 2%;
+  padding: 2%;
+  background: skyblue;
+border-radius: 5%;
+}
+table{
+  border :1px solid black;
+}
+img{
+  width: 100%;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+body{
+  background:skyblue;
+}
+.parent{
+  margin: 2%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  background: pink;
+}
+.child{
+  width:90%;
+  margin: 2%;
+  padding: 3%;
+  background: grey;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 5%;
+
+}
+}
+@media only screen and (min-width:481px) and (max-width:760px){
+body{
+  background:skyblue;
+}
+.parent{
+  margin: 3%;
+  padding: 3%;
+  display: flex;
+flex-wrap: wrap;
+  background: pink;
+}
+.child{
+  width:40%;
+  margin: 2%;
+  padding: 3%;
+  background: grey;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 5%;
+
+}
+}
